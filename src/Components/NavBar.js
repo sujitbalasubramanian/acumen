@@ -16,7 +16,7 @@ const NavBar = () => {
 
                 <ul className="hidden md:flex flex-end">
                     <li className="p-4"><Link to="/">Home</Link></li>
-                    <li className="p-4"><Link to="/events">Events</Link></li>
+                    <li className="p-4"><Link to="/#events">Events</Link></li>
                     <li className="p-4"><Link to="/about">About</Link></li>
                 </ul>
                 <div onClick={handleNav} className='block md:hidden'>
@@ -27,7 +27,7 @@ const NavBar = () => {
                     <h1 className="w-full text-3xl font-bold text-[var(--red)] m-4"> Acumen 2K23 </h1>
                     <ul className="uppercase p-4">
                         <li className="p-4 border-b border-gray-600"><Link to="/">Home</Link></li>
-                        <li className="p-4 border-b border-gray-600"><Link to="/events">Event</Link></li>
+                        <li className="p-4 border-b border-gray-600"><Link to="/#events">Event</Link></li>
                         <li className="p-4 border-b border-gray-600"><Link to="/about">About</Link></li>
                         <li className="p-4"><Link to="/previous_year_events">Others</Link></li>
                     </ul>

@@ -1,9 +1,14 @@
 import React, {useState} from "react"
+import NavBar from '../Components/NavBar'
+import Footer from '../Components/Footer'
+import Header from '../Components/header'
 
 function About(){
     return(
-        <div>
-            <p>Body</p>
+        <div className="relative">
+            <Header/>
+            <NavBar/>
+            <Footer/>
         </div>
     )
 }

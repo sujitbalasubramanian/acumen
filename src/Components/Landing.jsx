@@ -23,7 +23,7 @@ function Landing(){
                         />
                         <p className="md:text-2xl text-xl font-bold text-gray-500 pt-8">April 26,2023</p>
                         <div className="register_but object-contain">
-                            <Link to="/events">
+                            <Link to="/#events">
                                 <button className="bg-[#ff2a19] text-white text-lg w-[200px] rounded-md font-medium my-6 mx-auto py-3">Register soon</button>
                             </Link>
                         </div>
