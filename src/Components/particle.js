@@ -48,11 +48,11 @@ function particle() {
                         value: "#034F7A",
                     },
                     links: {
-                        color: "#39bbc3",
+                        color: "#7af1fa",
                         distance: 150,
                         enable: true,
                         opacity: 0.5,
-                        width: 1,
+                        width: 2,
                     },
                     collisions: {
                         enable: true,

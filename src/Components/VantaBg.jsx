@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import BIRDS from "vanta/dist/vanta.birds.min";
+import GLOBE from "vanta/dist/vanta.globe.min";
 import * as THREE from "three";
 
 function VantaBg(){
@@ -9,19 +9,18 @@ function VantaBg(){
     useEffect(() => {
         if (!vantaEffect) {
             setVantaEffect(
-                BIRDS({
-                    el: vantaRef.current,
+                GLOBE({
+                    el: this.vantaRef.current,
                     THREE: THREE,
                     mouseControls: true,
                     touchControls: true,
                     gyroControls: false,
-                    minHeight: 1000.0,
-                    minWidth: 600.0,
+                    minHeight: 200.0,
+                    minWidth: 200.0,
                     scale: 1.0,
                     scaleMobile: 1.0,
                     backgroundColor: "#000000",
-                    color1: "#ff0000",
-                    color2: "#00ff00"
+                    color: "#ee0000"
                 })
             );
         }

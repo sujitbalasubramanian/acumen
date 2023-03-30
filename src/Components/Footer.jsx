@@ -40,12 +40,11 @@ function Footer(){
                     </div>
                 </div>
             </div>
-            <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300 relative'>
+            <div className='max-w-[1240px] mx-auto py-16 px-4 text-gray-300 relative'>
                 <hr />
-                <div className='flex justify-center allign-center '>
-                    <p className='px-4'>Developed By</p> <Link to='/dev' className='underline underline-offset-2 text-[var(--red)]'><p>Uruv</p></Link>
+                <div className='p-4 flex justify-center allign-center '>
+                    <p className='px-4'>Developed and Designed By</p> <Link to='/dev' className='underline underline-offset-2 text-[var(--red)]'><p>Uruv</p></Link>
                 </div>
-                <hr />
             </div>
         </div>
     );

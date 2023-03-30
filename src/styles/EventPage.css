@@ -3,17 +3,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 20px;
   width: 250px;
   margin: 20px;
-  /* border: 10px solid; */
-  /* border-radius: 50% 50% 50% 50% / 12% 12% 88% 88%; */
   border-radius: 10px;
-  background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(211,211,211,1) 17%, rgba(128,128,128,1) 100%) border-box;
+  background-image: url('../assets/BG.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .shield:hover {
   transition: transform 600ms;
   transform: translateY(-15px);
+}
+
+.shield .shield-button {
+  position: absolute;
+  bottom: 0;
+  visibility: hidden;
+}
+
+.shield:hover .shield-button {
+  visibility: visible;
 }
 
 .shield img {
@@ -32,7 +44,6 @@
 .shield > h1 {
   font-size: 2rem;
   font-weight: 500;
-  color: #545454;
 }
 
 @media only screen and (max-width: 720px) {
