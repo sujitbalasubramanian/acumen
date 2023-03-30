@@ -5,13 +5,16 @@ import Footer from '../Components/Footer'
 import AboutUs from '../Components/AboutUs'
 import Events from '../Components/Events'
 import Landing from '../Components/Landing'
+import Header from '../Components/header'
+import './Home.css';
 
 function Home(){
     return(
         <div className="relative">
-            <div className="absolute top-0 bottom-0 left-0 right-0">
-                <VantaBg/>
-            </div>
+            {/* <div className="backvanta"> */}
+            {/*     <VantaBg/> */}
+            {/* </div> */}
+            <Header/>
             <NavBar/>
             <Landing/>
             <AboutUs/>

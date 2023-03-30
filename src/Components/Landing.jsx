@@ -7,14 +7,12 @@ function Landing(){
         <>
             <div className="text-white relative"  >
                 <div className="max-w-[800px] w-full h-[610px] mx-auto text-center gap-x-50 gap-y-0 flex max-lg:flex-col justify-center">
-                    <div className="flex justify-center text-center item-center lg:flex-col mt-10">
-                        {/* <Spinner /> */}
-                    </div >
                     <div className="flex flex-col justify-center text-center item-center" >
                         <p className="md:text-3xl sm:text-2xl sm:mt-10 text-1xl font-bold  p-2">Kongu Engineering College</p>
-                        <p className="md:text-3xl sm:text-2xl sm:mt-10 text-1xl font-bold  p-2">ECE Association</p>
+                        <p className="md:text-3xl sm:text-2xl sm:mt-10 text-1xl font-bold  p-2">ECE Association & IETE Students Forum</p>
+                        <p className="md:text-4xl sm:text-3xl sm:mt-10 text-xl font-bold  p-2">Proudly Presents</p>
                         <div className="relative">
-                            <h1 className="md:text-7xl sm:text-6xl sm:mt-10 text-4xl font-bold md:py-6 text-[#ff2a19]">ACUMEN 2K23!</h1>
+                            <h1 className="md:text-7xl sm:text-6xl sm:mt-10 text-4xl font-bold md:py-6 text-[var(--red)] monoton-font">ACUMEN 2K23!</h1>
                         </div>
                         <TypeAnimation className="md:text-5xl font-mono sm:text-4xl text-xl font-bold"
                                 sequence={['Online-Registration opens', 'Cash Prize upto ₹10k']}

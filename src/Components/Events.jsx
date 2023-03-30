@@ -11,7 +11,7 @@ import '../styles/EventPage.css';
 
 function Events(){
     return(
-           <div className="flex flex-col justify-center text-center items-center h-scree w-full relative">
+           <div className="flex flex-col justify-center text-center items-center h-scree w-full relative py-[calc(100%*0.05)]">
                 <Fade left cascade>
                 <div className="flex mar-20">
                     <h1 className="md:text-5xl sm:text-4xl text-xl font-bold text-white">
@@ -20,7 +20,7 @@ function Events(){
                 </div>
                 </Fade>
                <Fade top>
-                   <div className="flex shield-wrap w-full justify-between items-center text-center">
+                   <div className="flex shield-wrap w-full justify-between items-center text-center md:justify-center">
                        <Link to="/eventdetails1">
                            <div id="1" className="shield" >
                                <h1 className="p-2">Paper Presentaion</h1>
@@ -33,12 +33,12 @@ function Events(){
                                <img src={sword} alt="fight" />
                            </div>
                        </Link>
-                       <Link to="/eventdetails3">
-                           <div id="3" className="shield">
-                               <h1 className="p-2">C Hunt</h1>
-                               <img src={ball} alt="Soccer" />
-                           </div>
-                       </Link>
+                        <Link to="/eventdetails4">
+                            <div id="4" className="shield">
+                                <h1 className="p-2">Circuitrix</h1>
+                                <img src={path} alt="Line" />
+                            </div>
+                        </Link>
                    </div>
                </Fade>
 
@@ -50,13 +50,7 @@ function Events(){
                 </div>
                 </Fade>
                <Fade top>
-                   <div className="flex shield-wrap w-full justify-between items-center text-center">
-                        <Link to="/eventdetails4">
-                            <div id="4" className="shield">
-                                <h1 className="p-2">Circuitrix</h1>
-                                <img src={path} alt="Line" />
-                            </div>
-                        </Link>
+                   <div className="flex shield-wrap w-full justify-between items-center text-center md:justify-center">
                         <Link to="/eventdetails5">
                             <div id="5" className="shield">
                                 <h1 className="p-2">Funtivities</h1>
@@ -71,6 +65,35 @@ function Events(){
                         </Link>
                     </div>
                 </Fade>
+                <Fade left cascade>
+                <div className="flex mar-20">
+                    <h1 className="md:text-5xl sm:text-4xl text-xl font-bold text-white">
+                       Work Shops 
+                    </h1>
+                </div>
+                </Fade>
+               <Fade top>
+                   <div className="flex shield-wrap w-full justify-between items-center text-center md:justify-center">
+                       <Link to="/eventdetails1">
+                           <div id="1" className="shield" >
+                               <h1 className="p-2">Paper Presentaion</h1>
+                               <img src={mental} alt="race" />
+                           </div>
+                       </Link>
+                       <Link to="/eventdetails2">
+                           <div id="2" className="shield" >
+                               <h1 className="p-2">Project Presentation</h1>
+                               <img src={sword} alt="fight" />
+                           </div>
+                       </Link>
+                        <Link to="/eventdetails4">
+                            <div id="4" className="shield">
+                                <h1 className="p-2">Circuitrix</h1>
+                                <img src={path} alt="Line" />
+                            </div>
+                        </Link>
+                   </div>
+               </Fade>
             </div>
     )
 }

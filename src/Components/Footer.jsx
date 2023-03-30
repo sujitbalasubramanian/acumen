@@ -1,4 +1,6 @@
 import React, {useState} from "react"
+import isf from "../assets/ece.png"
+import iete from "../assets/iete.png"
 import {
     FaInstagram,
     FaGoogle,
@@ -8,50 +10,40 @@ import {Link} from 'react-router-dom';
 function Footer(){
     return(
         <div>
-            <div className='max-w-[1240px] mx-auto py-16 px-4 flex flex-row flex-wrap justify-between text-gray-300 relative footer'>
-                <div className='col-span-2'>
+            <div className='max-w-[1240px] mx-auto py-16 px-4 flex flex-row flex-wrap justify-between text-gray-300 relative footer max-sm:justify-center'>
+                <div className='col-span-2 max-sm:py-4'>
                     <h1 className='w-full text-4xl font-bold text-[var(--red)]'>Contact Us</h1>
                     <p className='py-4 font-bold  text-1xl text-white'>Staff Co ordinator</p>
-                    <p className='font-mono' >Dr.Thangarasu.S.K - 9942783338 </p>
-                    <p className='font-mono' >Mr.ArunKumar.P.M - 9750135213 </p>
+                    <p className='font-mono'>Mr.Chandrasekaran - 73255432</p>
+                    <p className='font-mono'>Mr.Arulmurugan - 9659341901</p>
                     <p className='py-4 font-bold text-1xl text-white'>Student Co ordinator</p>
-                    <p className='font-mono'>Mr.Selva Vignesh.K - 6380082151</p>
-                    <p className='font-mono'>Mr.Vigneswara - 9786521314 </p>
+                    <p className='font-mono'>Arun Aditya N - 7339685594</p>
+                    <p className='font-mono'>SAHASRA V - 9994528549 </p>
                 </div>
-                <div className='font-mono mt-12'>
-                    <div>
-                        <ul>
-                            <a href='mailto:competitions.rbc.kec@gmailcom' rel="noopener noreferrer " target={"_blank"} >
-                                <li className='py-2 text-sm '> <FaGoogle size={30} className="inline-block" />  competitions.rbc.kec</li>
-                            </a>
-                        </ul>
-                        <br />
-                        <ul>
-                            <a href='https://www.instagram.com/robotics.club_kec/?igshid=YmMyMTA2M2Y%3D' rel="noopener noreferrer " target={"_blank"} >
-                                <li className='py-2 text-sm'> <FaInstagram size={30} className="inline-block" />  robotics.club_kec</li>
-                            </a>
-                        </ul>
+                <div className='col-span-2 max-sm:py-4'>
+                    <h1 className='w-full text-4xl font-bold text-[var(--red)]'>Venue</h1>
+                    <h1 className='w-full text-3xl font-bold text-white py-4'>MBA Seminar Hall</h1>
+                    <p className='font-bold text-1xl text-white'>Student Co ordinator</p>
+                    <p className='font-mono'>7339685594</p>
+                    <p className='font-mono'>9994528549</p>
+                    <ul className="py-4">
+                        <a href='mailto:ece.isf.2023@gmailcom' rel="noopener noreferrer " target={"_blank"} >
+                            <li className='text-lg'> <FaGoogle size={30} className="inline-block" /><span className="px-2 text-lg">ece.isf.2023@gmail.com</span></li>
+                        </a>
+                    </ul>
+                </div>
+                <div className='col-span-2'>
+                    <div className='flex flex-col social justify-center items-center'>
+                        <p className='py-4 font-bold text-2xl text-white'>ECA & IETE Forum</p>
+                            <img src={iete} className="my-2 w-[80px] h-[80px] bg-white rounded" alt="beingkecinan"></img>
+                            <img src={isf} className="my-2 w-[80px] h-[80px] bg-white rounded" alt="appatakars"></img>
                     </div>
-                </div>
-
-                <div className='mt-10 flex flex-col social justify-center items-center'>
-                    <p className='py-4 font-bold text-1xl text-white'>Social Media Team</p>
-                    <a href='https://instagram.com/being_kecian?igshid=YmMyMTA2M2Y=' rel="noopener noreferrer " target={"_blank"} >
-                        {/* <img src={beingkecinan} className="w-[80px] h-[80px]" alt="beingkecinan"></img> */}
-                    </a>
-                    <a href='https://instagram.com/kec_appatakkars?igshid=YmMyMTA2M2Y=' rel="noopener noreferrer " target={"_blank"} >
-                        {/* <img src={appatakars} className="w-[80px] h-[80px]" alt="appatakars"></img> */}
-                    </a>
-                </div>
-
-                <div className='mt-16'>
-                    {/* <MapofMTS /> */}
                 </div>
             </div>
             <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300 relative'>
                 <hr />
                 <div className='flex justify-center allign-center '>
-                    <p className='px-4'>Developed By</p> <Link to='/dev' className='underline underline-offset-2 text-[var(--red)]'><p>FG</p></Link>
+                    <p className='px-4'>Developed By</p> <Link to='/dev' className='underline underline-offset-2 text-[var(--red)]'><p>Uruv</p></Link>
                 </div>
                 <hr />
             </div>

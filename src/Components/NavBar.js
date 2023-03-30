@@ -10,7 +10,7 @@ const NavBar = () => {
     }
     return (
         <div className="flex w-full justify-between items-center flex-wrap h-42 relative">
-            <div className="text-white flex w-full justify-between items-center h-24">
+            <div className="max-w-[1240px] mx-auto text-white flex w-full justify-between items-center h-24 px-[calc(100%*0.05)]">
 
                 <Link to="/"><h1 className="w-full text-3xl font-bold text-[var(--red)]">Acumen 2K23</h1></Link>
 
