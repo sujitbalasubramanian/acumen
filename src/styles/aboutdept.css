@@ -4,6 +4,7 @@
 }
 .para{
     max-width: 450px;
+    word-wrap: break-word;
 }
 .aboutus{
     display: flex;
