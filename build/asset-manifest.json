@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/acumen/static/css/main.b3d93915.css",
+    "main.css": "/acumen/static/css/main.d58a2a97.css",
     "main.js": "/acumen/static/js/main.26e425be.js",
     "static/js/787.396ffc22.chunk.js": "/acumen/static/js/787.396ffc22.chunk.js",
     "static/media/Jeevanatham.jpg": "/acumen/static/media/Jeevanatham.92071f747b10ac882303.jpg",
@@ -41,12 +41,12 @@
     "static/media/naveen.jpg": "/acumen/static/media/naveen.dd41919b56689e9f1e61.jpg",
     "static/media/BhoovithaS.jpg": "/acumen/static/media/BhoovithaS.7876c087a8a0c5677ff7.jpg",
     "index.html": "/acumen/index.html",
-    "main.b3d93915.css.map": "/acumen/static/css/main.b3d93915.css.map",
+    "main.d58a2a97.css.map": "/acumen/static/css/main.d58a2a97.css.map",
     "main.26e425be.js.map": "/acumen/static/js/main.26e425be.js.map",
     "787.396ffc22.chunk.js.map": "/acumen/static/js/787.396ffc22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3d93915.css",
+    "static/css/main.d58a2a97.css",
     "static/js/main.26e425be.js"
   ]
 }
