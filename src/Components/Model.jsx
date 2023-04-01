@@ -25,7 +25,7 @@ const Modal = ({ setIsOpen,handleClick,Content }) => {
             Session: <span className="text-[var(--blue)]">{Content.session}</span>
           </p>
           <p className="sm:text-2xl text-xl font-bold text-[var(--red)] text-start">
-            Gpay Number: <span className="text-[var(--blue)]">{Content.session}</span>
+            Gpay Number: <span className="text-[var(--blue)]">9994538549</span>
           </p>
           <p className='py-2 font-bold  text-2xl text-[var(--red)] text-start'>Any Doubts:</p>
           <p className='text-[var(--blue)] text-start'>Arun Aditya N - 7339685594</p>
