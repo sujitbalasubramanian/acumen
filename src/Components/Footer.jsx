@@ -1,6 +1,7 @@
-import React, {useState} from "react"
+import React, {useState,useEffect} from "react"
 import isf from "../assets/ece.png"
 import iete from "../assets/iete.png"
+import {useLocation} from 'react-router-dom'
 import {
     FaInstagram,
     FaGoogle,
@@ -8,6 +9,16 @@ import {
 import {Link} from 'react-router-dom';
 
 function Footer(){
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant", // Optional if you want to skip the scrolling animation
+    });
+  }, [pathname]);
+
     return(
         <div>
             <div className='max-w-[1240px] mx-auto py-16 px-4 flex flex-row flex-wrap justify-between text-gray-300 relative footer max-sm:justify-center'>
