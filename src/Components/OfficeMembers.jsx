@@ -7,17 +7,76 @@ function About() {
         <>
 
             <div className="cards">
+                
                 <div className="cardrow">
+                    
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src={require('../assets/office_barriers/hod.jpg')} />
+                                <div className="absolute text-black paraname">Dr.T.Meera Devi</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 className="post text-center">Head Of The Department</h1>    
+                                <h1 className="text-center post">ECE</h1>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src={require('../assets/office_barriers/arul.jpg')} />
+                                <div className="absolute text-black paraname">Dr.A.Arulmurugan</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 className="post text-center">Assistant Professor</h1>
+                                <h1 className="text-center post">ECE</h1>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src={require('../assets/office_barriers/chandru.jpg')} />
+                                <div className="absolute text-black paraname">Mr.A.Chandrasekaran</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 className="post text-center">Assistant Professor</h1>
+                                <h1 className="text-center post">ECE</h1>
+
+                            </div>
+                        </div>
+                    </div>
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front " >
-                                <img src={require('../assets/office_barriers/ArunAdityaN.jpg')} />
-                                <div className="absolute text-black paraname">Arun Aditya N</div>
+                                <img src={require('../assets/office_barriers/Arunadithya.jpg')} />
+                                <div className="absolute text-[var(--blue)] paraname">Arun Aditya N</div>
                             </div>
                             <div class="flip-card-back">
                                 <h1 className="post text-center">Chairman</h1>
                                 <h1 className="text-center post">ECEA</h1>
 
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            
+                <div className="cardrow">
+                <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src={require('../assets/office_barriers/sriharini.jpg')} />
+                                <div className="absolute text-black paraname">Sri Harini</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 className="post text-center">Additional Secretary</h1>    
+                                <h1 className="text-center post">ECEA</h1>
 
                             </div>
                         </div>
@@ -124,7 +183,7 @@ function About() {
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                                <img src={require('../assets/office_barriers/maleicon.jpg')} />
+                                <img src={require('../assets/office_barriers/prasanna.jpg')} />
                                 <div className="absolute text-black paraname">Prasanna G</div>
                             </div>
                             <div class="flip-card-back">
@@ -137,7 +196,7 @@ function About() {
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                            <img src={require('../assets/office_barriers/maleicon.jpg')} />
+                            <img src={require('../assets/office_barriers/aravindhan4.jpg')} />
                                 <div className="absolute text-black paraname">Aravind R</div>
                             </div>
                             <div class="flip-card-back">
@@ -150,7 +209,7 @@ function About() {
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                            <img src={require('../assets/office_barriers/maleicon.jpg')} />
+                            <img src={require('../assets/office_barriers/gokuld.jpg')} />
                                 <div className="absolute text-black paraname">Gokul D</div>
                             </div>
                             <div class="flip-card-back">
@@ -504,6 +563,62 @@ function About() {
                         </div>
                     </div>
                 </div>
+                <div className="cardrow">
+                    
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src={require('../assets/office_barriers/SURESH.jpg')} />
+                                <div className="absolute text-black paraname">Suresh Kanna</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 className="post text-center">Executive Member</h1>    
+                                <h1 className="text-center post">IETE</h1>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src={require('../assets/office_barriers/maleicon.jpg')} />
+                                <div className="absolute text-black paraname">Gulnas N</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 className="post text-center">Treasurer</h1>
+                                <h1 className="text-center post">IETE</h1>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src={require('../assets/office_barriers/dharani.jpg')} />
+                                <div className="absolute text-black paraname">Dharanidharan K</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 className="post text-center">Executive Member</h1>
+                                <h1 className="text-center post">IETE</h1>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src={require('../assets/office_barriers/maleicon.jpg')} />
+                                <div className="absolute text-black paraname">Aruneshwar T</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 className="post text-center">Executive Member</h1>
+                                <h1 className="text-center post">IETE</h1>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
                 
                
 

@@ -25,8 +25,8 @@ function Footer(){
                 <div className='col-span-2 max-sm:py-4'>
                     <h1 className='w-full text-4xl font-bold text-[var(--red)]'>Contact Us</h1>
                     <p className='py-4 font-bold  text-1xl text-white'>Staff Co ordinator</p>
-                    <p className='font-mono'>Mr.Chandrasekaran - 73255432</p>
-                    <p className='font-mono'>Mr.Arulmurugan - 9659341901</p>
+                    <p className='font-mono'>Mr. A . Chandrasekaran - 7373255432</p>
+                    <p className='font-mono'>Dr. A . Arulmurugan - 9659341901</p>
                     <p className='py-4 font-bold text-1xl text-white'>Student Co ordinator</p>
                     <p className='font-mono'>Arun Aditya N - 7339685594</p>
                     <p className='font-mono'>SAHASRA V - 9994528549 </p>

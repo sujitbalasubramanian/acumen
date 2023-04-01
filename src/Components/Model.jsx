@@ -18,18 +18,18 @@ const Modal = ({ setIsOpen,handleClick,Content }) => {
             <p className="p-[10px] text-white">
               {Content.note}
             </p>
-          <p className="sm:text-2xl text-xl font-bold text-[var(--red)] text-start">
-            Date: <span className="text-[var(--blue)]">26.4.2023</span>
+          <p className="sm:text-[22px] text-[23px] font-bold text-[var(--red)] text-start">
+            Date: <span className="text-[var(--blue)]">26.04.2023</span>
           </p>
-          <p className="sm:text-2xl text-xl font-bold text-[var(--red)] text-start">
+          <p className="sm:text-[22px] text-[23px] font-bold text-[var(--red)] text-start">
             Session: <span className="text-[var(--blue)]">{Content.session}</span>
           </p>
-          <p className="sm:text-2xl text-xl font-bold text-[var(--red)] text-start">
+          <p className="sm:text-[22px] text-[23px] font-bold text-[var(--red)] text-start">
             Gpay Number: <span className="text-[var(--blue)]">9994538549</span>
           </p>
           <p className='py-2 font-bold  text-2xl text-[var(--red)] text-start'>Any Doubts:</p>
-          <p className='text-[var(--blue)] text-start'>Arun Aditya N - 7339685594</p>
-          <p className='text-[var(--blue)] text-start'>SAHASRA V - 9994528549 </p>
+          <p className='text-[var(--blue)] text-start'>Mr . N . Arun Aditya  - 7339685594</p>
+          <p className='text-[var(--blue)] text-start'>Miss . V . SAHASRA  - 9994528549 </p>
           <div className="flex justify-center mt-8">
             <a href={Content.link} className="flex-1 p-[10px] mx-20 reg-btn font-bold text-black">Register</a>
             <button className="flex-1 p-[10px] mx-20 cls-btn font-bold text-white" onClick={handleClick}>Close</button>

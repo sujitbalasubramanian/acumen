@@ -9,19 +9,19 @@ function Events(){
         {
             name: "PAPER PRESENTATION",
             content: "Each team having minimum of 1 member and maximum of 3 members can present a paper on any particular technical or core topic. One registration per team is enough. No need for individual registration of participants. Registration Fee is Rs.150 Per head. Registration Deadline is 22rd April, 2023. (11:59 PM). Papers related to Embedded, VLSI, Communication and Networking, Signal and Image Processing, Artificial Intelligence andMachine Learning, Website, Mobile App, Biomedical and etc are accepted. Prior registration is required to participate in this event. Abstract should not exceed the limit of 400 words. Maximum of 15 slides and minimum of 10 slides should be there in the PPT. The team will get 5 minutes to present their paper followed by a 2 minutes query session. The work should be original and plagiarism must be avoided. Bring soft copy of PPT in pendriveor have it in mail.",
-            session: "MORNING",
+            session: "FORENOON",
             link: "https://forms.gle/3xay27geiWRFrNVKA",
         },
         {
             name: "PROJECT PRESENTATION",
             content: "Each team having minimum of 1 member and maximum of 3 members can display their project. One registration per team is enough. No need for individual registration of participants. Registration Fee is Rs.150 per head. Registration Deadline is 22nd April, 2023. (11:59PM) Hardware/ Prototype should be displayed on the day of the event. It is mandatory, if failed the team will be disqualified. Prior registration isrequired to participate in this event. Abstract should not exceed the limit of 400 words. PPT about the project is optional.",
-            session: "MORNING",
+            session: "FORENOON",
             link: "https://forms.gle/XsTWTi1UKi2zs39g9",
         },
         {
             name: "CIRCUITRIX",
             content: "Each team having maximum of 3 members can participate. One registration per team is enough. No need for individual registration of participants. Questions related to ECE will be asked. Consists of various rounds which includes quiz and circuit debugging.",
-            session: "MORNING",
+            session: "FORENOON",
             link: "https://forms.gle/o2H84R4JMdw2ikb69",
         },
         {
@@ -42,19 +42,19 @@ function Events(){
             name: "SMART ANTENNAS",
             content: "Registration fees per head Rs.200",
             session: "9.am to 4.30 pm",
-            link: "",
+            link: "https://forms.gle/SFQdMw8gM72DVwHh8",
         },
         {
             name: "BATTERY FOR EV",
             content: "Registration fees per head Rs.200",
             session: "9.am to 4.30 pm",
-            link: "",
+            link: "https://forms.gle/SFQdMw8gM72DVwHh8",
         },
         {
             name: "Recent trends in drone technology",
             content: "Registration fees per head Rs.200",
             session: "9.am to 4.30 pm",
-            link: "",
+            link: "https://forms.gle/SFQdMw8gM72DVwHh8",
         }
     ];
 

@@ -10,9 +10,6 @@ import VantaBg from '../Components/VantaBg'
 function Home(){
     return(
         <div className="relative">
-            {/* <div style={{position:"fixed",height:"100%",width:"100%"}}> */}
-            {/*     <VantaBg/> */}
-            {/* </div> */}
             <Header/>
             <NavBar/>
             <Landing/>

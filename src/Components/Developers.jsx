@@ -3,97 +3,94 @@ import '../styles/dev.css'
 import * as Icon from 'react-bootstrap-icons';
 
 function Developers() {
-    return (
+  return (
 
-        <div className='max-w-[1240px] mx-auto relative gap-2' >
-            {/* <div class="background"></div> */}
-        <div id="card">
-        <div class="outer-div">
-                <div class="inner-div">
-                    <div class="front">
-                        <div class="front__bkg-photo "></div>
-                        <div class="front__face-photo "> 
-                            <img src={require('../assets/developers/naveen.jpg')} />
-                        </div>
-                        <div class="front__text">
-                            <h3 class="front__text-header">Sujit R B</h3>
-                            {/* <p class="front__text-para"><i class="fas fa-map-marker-alt front-icons"></i>Seattle</p> */}
-
-                            <span class="front__text-hover">Web Developer</span>
-                        </div>
-                    </div>
-                    <div class="back">
-                        <div class="social-media-wrapper">
-                            <a href="#" class="social-icon"><Icon.Instagram color="white" size={40} /></a>
-                            <a href="#" class="social-icon"><Icon.Github color="white" size={40} /></a>
-                            <a href="#" class="social-icon"><Icon.Linkedin color="white" size={40} /></a>
-                            <a href="#" class="social-icon"><Icon.Twitter color="white" size={40} /></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="outer-div">
-                <div class="inner-div">
-                    <div class="front">
-                        <div class="front__bkg-photo"></div>
-                        <div class="front__face-photo">
-                        <img src={require('../assets/developers/naveen.jpg')} />
-                        </div>
-                        <div class="front__text">
-                            <h3 class="front__text-header">Veenas Kumar S</h3>
-                            {/* <p class="front__text-para"><i class="fas fa-map-marker-alt front-icons"></i>Seattle</p> */}
-
-                            <span class="front__text-hover">Web Developer</span>
-                        </div>
-                    </div>
-                    <div class="back">
-                        <div class="social-media-wrapper">
-                        <a href="https://instagram.com/_naveen_bharathi?igshid=ZDdkNTZiNTM= " class="social-icon"><Icon.Instagram color="white" size={40} /></a>
-                            <a href="https://github.com/Naveenelan " class="social-icon"><Icon.Github color="white" size={40} /></a>
-                            <a href="https://www.linkedin.com/in/naveen-bharathi-739423235/" class="social-icon"><Icon.Linkedin color="white" size={40} /></a>
-                            <a href="https://twitter.com/Naveen03972024?t=ExzdyO-x4lUD9IdKhpon8A&s=08" class="social-icon"><Icon.Twitter color="white" size={40} /></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div><br /><br />
-        <div class="outer-div">
-                <div class="inner-div">
-                    <div class="front">
-                        <div class="front__bkg-photo"></div>
-                        <div class="front__face-photo">
-                        <img src={require('../assets/developers/naveen.jpg')} />
-                        </div>
-                        <div class="front__text">
-                            <h3 class="front__text-header">Naveen Bharathi P</h3>
-                            {/* <p class="front__text-para"><i class="fas fa-map-marker-alt front-icons"></i>Seattle</p> */}
-
-                            <span class="front__text-hover">UI Designer</span>
-                        </div>
-                    </div>
-                    <div class="back">
-                        <div class="social-media-wrapper">
-                        <div class="social-media-wrapper">
-                            <a href="https://instagram.com/_naveen_bharathi?igshid=ZDdkNTZiNTM= " class="social-icon"><Icon.Instagram color="white" size={40} /></a>
-                            <a href="https://github.com/Naveenelan " class="social-icon"><Icon.Github color="white" size={40} /></a>
-                            <a href="https://www.linkedin.com/in/naveen-bharathi-739423235/" class="social-icon"><Icon.Linkedin color="white" size={40} /></a>
-                            <a href="https://twitter.com/Naveen03972024?t=ExzdyO-x4lUD9IdKhpon8A&s=08" class="social-icon"><Icon.Twitter color="white" size={40} /></a>
-                        </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        
-            
+    <div className='max-w-[1240px] mx-auto relative gap-2' >
+      <div className="firstrow">
+      <div class="card">
+        <div class="img">
+          <img src={require("../assets/developers/naveen.jpg")} />
         </div>
+        <div class="infos">
+          <div class="name">
+            <h2>Sujit Balasubramian</h2>
+            <h4>Web Developer</h4>
+          </div>
+          <div className="socialmedia">
+            <a target="_blank" href="https://www.instagram.com/kongutbi"><Icon.Instagram aria-hidden="true"
+              id="instagram"></Icon.Instagram></a>
+            <a target="_blank" href="https://www.linkedin.com/company/kongutbi/"><Icon.Linkedin
+
+              id="linkedin"></Icon.Linkedin></a>
+            <a target="_blank" href="https://twitter.com/kongutbi"><Icon.Twitter
+              id="twitter"></Icon.Twitter></a>
+            <a target="_blank" href="https://www.facebook.com/KonguTBI"><Icon.Github
+              id="github"></Icon.Github></a>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="card">
+        <div class="img">
+          <img src={require("../assets/developers/naveen.jpg")} />
+        </div>
+        <div class="infos">
+          <div class="name">
+            <h2>Veenas Kumar</h2>
+            <h4>Web Developer</h4>
+          </div>
+          <div className="socialmedia">
+            <a target="_blank" href="https://www.instagram.com/kongutbi"><Icon.Instagram aria-hidden="true"
+              id="instagram"></Icon.Instagram></a>
+            <a target="_blank" href="https://www.linkedin.com/company/kongutbi/"><Icon.Linkedin
+
+              id="linkedin"></Icon.Linkedin></a>
+            <a target="_blank" href="https://twitter.com/kongutbi"><Icon.Twitter
+              id="twitter"></Icon.Twitter></a>
+            <a target="_blank" href="https://www.facebook.com/KonguTBI"><Icon.Github
+              id="github"></Icon.Github></a>
+          </div>
+
+
+        </div>
+      </div>
+      </div>
+     <div className="secondrow">
+     <div class="card">
+        <div class="img">
+          <img src={require("../assets/developers/naveen.jpg")} />
+        </div>
+        <div class="infos">
+          <div class="name">
+            <h2>Naveen Periasamy</h2>
+            <h4>UI Designer</h4>
+          </div>
+          <div className="socialmedia">
+            <a target="_blank" href="https://instagram.com/_naveen_bharathi?igshid=ZDdkNTZiNTM="><Icon.Instagram aria-hidden="true"
+              id="instagram"></Icon.Instagram></a>
+            <a target="_blank" href="https://www.linkedin.com/in/naveen-bharathi-739423235/"><Icon.Linkedin
+
+              id="linkedin"></Icon.Linkedin></a>
+            <a target="_blank" href="https://twitter.com/Naveen03972024?t=ExzdyO-x4lUD9IdKhpon8A&s=08"><Icon.Twitter
+              id="twitter"></Icon.Twitter></a>
+            <a target="_blank" href="https://github.com/Naveenelan"><Icon.Github
+              id="github"></Icon.Github></a>
+          </div>
+
+
+        </div>
+      </div>
+     </div>
+      
+
+
+    </div>
 
 
 
 
-    )
+  )
 }
 
 export default Developers;
