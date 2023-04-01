@@ -27,14 +27,14 @@ function Events(){
         {
             name: "TREASURE HUNT",
             content: "Each team having maximum of 3 members can participate. One registration per team is enough. No need for individual registration of participants.",
-            note: "ONLY THOSE WHO HAVE PARTICIPATED IN TECHNICAL EVENT CAN TAKE PART IN NON TECHNICAL EVENT",
+            note: "ONLY THOSE WHO HAVE PARTICIPATED IN TECHNICAL EVENT CAN TAKE PART IN NON TECHNICAL EVENT. Registration Fee is Rs.150 Per head.",
             session: "AFTERNOON",
             link: "https://forms.gle/UQVgagfa7uad9obt7",
         },
         {
             name: "RHYTHUM GALA",
             content: "Each team having maximum of 3 members can participate. One registration per team is enough. No need for individual registration of participants. Consists of various rounds like enacting to identify the song, find the Tamil song from English lyrics, identify the missed word in a song, identify the song which is played.",
-            note: "ONLY THOSE WHO HAVE PARTICIPATED IN TECHNICAL EVENT CAN TAKE PART IN NON TECHNICAL EVENT",
+            note: "ONLY THOSE WHO HAVE PARTICIPATED IN TECHNICAL EVENT CAN TAKE PART IN NON TECHNICAL EVENT. Registration Fee is Rs.150 Per head.",
             session: "AFTERNOON",
             link: "https://forms.gle/4r8efkqFymwh7BKo6",
         },
