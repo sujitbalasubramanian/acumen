@@ -3,21 +3,36 @@ import './Model.css';
 import {Fade} from 'react-awesome-reveal';
 
 const Modal = ({ setIsOpen,handleClick,Content }) => {
+  console.log(Content)
   return (
     <>
-      <div className="model-head flex items-center text-center justify-center" style={{display: setIsOpen ? 'flex' : 'none'}}>
+      <div className="model-head flex items-center justify-center" style={{display: setIsOpen ? 'flex' : 'none'}}>
         <Fade top>
-        <div className="flex flex-col dialog-box p-[10px] ">
+        <div className="flex flex-col dialog-box p-[10px]">
           <h1 className="sm:text-4xl text-xl font-bold p-[10px] text-[var(--red)]">
-              {Content}
+              {Content.name}
           </h1>
             <p className="p-[10px] text-white">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores laboriosam eos, quas sed numquam ut iusto modi obcaecati impedit neque dolor repudiandae quasi est nostrum temporibus quaerat ea possimus fuga.
+              {Content.content}
             </p>
-          <div className="flex justify-center">
-            
-            <button type="submit" className="flex-1 p-[10px] mx-20 reg-btn font-bold text-black" style={{backgroundColor:"red"}}>Register</button>
-            <button type="submit" className="flex-1 p-[10px] mx-20 cls-btn font-bold text-white" onClick={handleClick}>Close</button>
+            <p className="p-[10px] text-white">
+              {Content.note}
+            </p>
+          <p className="sm:text-2xl text-xl font-bold text-[var(--red)] text-start">
+            Date: <span className="text-[var(--blue)]">26.4.2023</span>
+          </p>
+          <p className="sm:text-2xl text-xl font-bold text-[var(--red)] text-start">
+            Session: <span className="text-[var(--blue)]">{Content.session}</span>
+          </p>
+          <p className="sm:text-2xl text-xl font-bold text-[var(--red)] text-start">
+            Gpay Number: <span className="text-[var(--blue)]">{Content.session}</span>
+          </p>
+          <p className='py-2 font-bold  text-2xl text-[var(--red)] text-start'>Any Doubts:</p>
+          <p className='text-[var(--blue)] text-start'>Arun Aditya N - 7339685594</p>
+          <p className='text-[var(--blue)] text-start'>SAHASRA V - 9994528549 </p>
+          <div className="flex justify-center mt-8">
+            <a href={Content.link} className="flex-1 p-[10px] mx-20 reg-btn font-bold text-black">Register</a>
+            <button className="flex-1 p-[10px] mx-20 cls-btn font-bold text-white" onClick={handleClick}>Close</button>
           </div>
           </div>
         </Fade>

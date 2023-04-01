@@ -34,7 +34,7 @@ function Footer(){
                 </div>
                 <div className='col-span-2'>
                     <div className='flex flex-col social justify-center items-center'>
-                        <p className='py-4 font-bold text-2xl text-white'>ECA & IETE Forum</p>
+                        <p className='py-4 font-bold text-2xl text-white'>ECEA & IETE Forum</p>
                             <img src={iete} className="my-2 w-[80px] h-[80px] bg-white rounded" alt="beingkecinan"></img>
                             <img src={isf} className="my-2 w-[80px] h-[80px] bg-white rounded" alt="appatakars"></img>
                     </div>

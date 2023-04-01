@@ -5,7 +5,59 @@ import '../styles/EventPage.css';
 import Modal from './Model.jsx'
 
 function Events(){
-    var contest = ['Paper Presentaion','Project Presentaion','Circuitrix','Treasure Hunt','Rhythm Gala','Battery For EV','Drone Tech','Smart 5G'];
+    var contest = [
+        {
+            name: "PAPER PRESENTATION",
+            content: "Each team having minimum of 1 member and maximum of 3 members can present a paper on any particular technical or core topic. One registration per team is enough. No need for individual registration of participants. Registration Fee is Rs.150 Per head. Registration Deadline is 22rd April, 2023. (11:59 PM). Papers related to Embedded, VLSI, Communication and Networking, Signal and Image Processing, Artificial Intelligence andMachine Learning, Website, Mobile App, Biomedical and etc are accepted. Prior registration is required to participate in this event. Abstract should not exceed the limit of 400 words. Maximum of 15 slides and minimum of 10 slides should be there in the PPT. The team will get 5 minutes to present their paper followed by a 2 minutes query session. The work should be original and plagiarism must be avoided. Bring soft copy of PPT in pendriveor have it in mail.",
+            session: "MORNING",
+            link: "https://forms.gle/3xay27geiWRFrNVKA",
+        },
+        {
+            name: "PROJECT PRESENTATION",
+            content: "Each team having minimum of 1 member and maximum of 3 members can display their project. One registration per team is enough. No need for individual registration of participants. Registration Fee is Rs.150 per head. Registration Deadline is 22nd April, 2023. (11:59PM) Hardware/ Prototype should be displayed on the day of the event. It is mandatory, if failed the team will be disqualified. Prior registration isrequired to participate in this event. Abstract should not exceed the limit of 400 words. PPT about the project is optional.",
+            session: "MORNING",
+            link: "https://forms.gle/XsTWTi1UKi2zs39g9",
+        },
+        {
+            name: "CIRCUITRIX",
+            content: "Each team having maximum of 3 members can participate. One registration per team is enough. No need for individual registration of participants. Questions related to ECE will be asked. Consists of various rounds which includes quiz and circuit debugging.",
+            session: "MORNING",
+            link: "https://forms.gle/o2H84R4JMdw2ikb69",
+        },
+        {
+            name: "TREASURE HUNT",
+            content: "Each team having maximum of 3 members can participate. One registration per team is enough. No need for individual registration of participants.",
+            note: "ONLY THOSE WHO HAVE PARTICIPATED IN TECHNICAL EVENT CAN TAKE PART IN NON TECHNICAL EVENT",
+            session: "AFTERNOON",
+            link: "https://forms.gle/UQVgagfa7uad9obt7",
+        },
+        {
+            name: "RHYTHUM GALA",
+            content: "Each team having maximum of 3 members can participate. One registration per team is enough. No need for individual registration of participants. Consists of various rounds like enacting to identify the song, find the Tamil song from English lyrics, identify the missed word in a song, identify the song which is played.",
+            note: "ONLY THOSE WHO HAVE PARTICIPATED IN TECHNICAL EVENT CAN TAKE PART IN NON TECHNICAL EVENT",
+            session: "AFTERNOON",
+            link: "https://forms.gle/4r8efkqFymwh7BKo6",
+        },
+        {
+            name: "SMART ANTENNAS",
+            content: "Registration fees per head Rs.200",
+            session: "9.am to 4.30 pm",
+            link: "",
+        },
+        {
+            name: "BATTERY FOR EV",
+            content: "Registration fees per head Rs.200",
+            session: "9.am to 4.30 pm",
+            link: "",
+        },
+        {
+            name: "Recent trends in drone technology",
+            content: "Registration fees per head Rs.200",
+            session: "9.am to 4.30 pm",
+            link: "",
+        }
+    ];
+
     const [isOpen, setIsOpen] = useState(false);
     const [Contest,setContest] = useState(1);
     const handleClick = event => {
