@@ -23,7 +23,7 @@ function Landing(){
                             repeat={Infinity}
                         />
                         <div className="register_but object-contain">
-                            <Link to="/home#events">
+                            <Link to="/events">
                                 <button className="bg-[#ff2a19] text-white text-lg w-[200px] rounded-md font-medium my-6 mx-auto py-3">Register soon</button>
                             </Link>
                         </div>

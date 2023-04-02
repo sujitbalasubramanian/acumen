@@ -6,7 +6,7 @@ const Modal = ({ setIsOpen,handleClick,Content }) => {
   console.log(Content)
   return (
         <Fade top>
-      <div className="model-head flex items-center justify-center" style={{display: setIsOpen ? 'flex' : 'none'}}>
+      <div className="model-head flex items-center justify-center " style={{display: setIsOpen ? 'flex' : 'none'}}>
         <div className="flex flex-col dialog-box p-[10px]">
           <h1 className="sm:text-4xl text-xl font-bold p-[10px] text-[var(--red)]">
               {Content.name}
@@ -28,7 +28,7 @@ const Modal = ({ setIsOpen,handleClick,Content }) => {
           </p>
           <p className='py-2 font-bold  text-2xl text-[var(--red)] text-start'>Any Doubts:</p>
           <p className='text-[var(--blue)] text-start'>Mr . N . Arun Aditya  - 7339685594</p>
-          <p className='text-[var(--blue)] text-start'>Miss . V . SAHASRA  - 9994528549 </p>
+          <p className='text-[var(--blue)] text-start'>Miss . V . SAHASRA  - 9994538549 </p>
           <div className="flex justify-center mt-8">
             <a href={Content.link} className="flex-1 p-[10px] mx-20 reg-btn font-bold text-black">Register</a>
             <button className="flex-1 p-[10px] mx-20 cls-btn font-bold text-white" onClick={handleClick}>Close</button>

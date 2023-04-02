@@ -1,5 +1,4 @@
 import React, {useState} from "react"
-import { Link } from "react-router-dom";
 import {Fade} from 'react-awesome-reveal';
 import '../styles/EventPage.css';
 import Modal from './Model.jsx'
@@ -8,7 +7,7 @@ function Events(){
     var contest = [
         {
             name: "PAPER PRESENTATION",
-            content: "Each team having minimum of 1 member and maximum of 3 members can present a paper on any particular technical or core topic. One registration per team is enough. No need for individual registration of participants. Registration Fee is Rs.150 Per head. Registration Deadline is 22rd April, 2023. (11:59 PM). Papers related to Embedded, VLSI, Communication and Networking, Signal and Image Processing, Artificial Intelligence andMachine Learning, Website, Mobile App, Biomedical and etc are accepted. Prior registration is required to participate in this event. Abstract should not exceed the limit of 400 words. Maximum of 15 slides and minimum of 10 slides should be there in the PPT. The team will get 5 minutes to present their paper followed by a 2 minutes query session. The work should be original and plagiarism must be avoided. Bring soft copy of PPT in pendriveor have it in mail.",
+            content: "Each team having minimum of 1 member and maximum of 3 members can present a paper on any particular technical or core topic. One registration per team is enough. No need for individual registration of participants. Registration Fee is Rs.150 Per head. Registration Deadline is 22rd April, 2023. (11:59 PM). Papers related to Embedded, VLSI, Communication and Networking, Signal and Image Processing, Artificial Intelligence andMachine Learning, Website, Mobile App, Biomedical and etc are accepted. Prior registration is required to participate in this event. Abstract should not exceed the limit of 400 words. Maximum of 15 slides and minimum of 10 slides should be there in the PPT. The team will get 5 minutes to present their paper followed by a 2 minutes query session. The work should be original and plagiarism must be avoided. Bring soft copy of PPT in pendrive or have it in mail.",
             session: "FORENOON",
             link: "https://forms.gle/3xay27geiWRFrNVKA",
         },
@@ -41,19 +40,19 @@ function Events(){
         {
             name: "SMART ANTENNAS",
             content: "Registration fees per head Rs.200",
-            session: "9.am to 4.30 pm",
+            session: "9.00 am to 4.30 pm",
             link: "https://forms.gle/SFQdMw8gM72DVwHh8",
         },
         {
             name: "BATTERY FOR EV",
             content: "Registration fees per head Rs.200",
-            session: "9.am to 4.30 pm",
+            session: "9.00 am to 4.30 pm",
             link: "https://forms.gle/SFQdMw8gM72DVwHh8",
         },
         {
             name: "Recent trends in drone technology",
             content: "Registration fees per head Rs.200",
-            session: "9.am to 4.30 pm",
+            session: "9.00 am to 4.30 pm",
             link: "https://forms.gle/SFQdMw8gM72DVwHh8",
         }
     ];
@@ -65,7 +64,7 @@ function Events(){
         setContest(Number(event.target.id));
     };
     return(
-           <div className="flex flex-col justify-center text-center items-center h-scree w-full relative py-[calc(100%*0.05)]">
+           <div className="flex flex-col justify-between text-center items-center  w-full relative py-[calc(100%*0.05)]" id="events">
                 <Fade left cascade>
                 <div className="flex mar-20">
                     <h1 className="md:text-5xl sm:text-4xl text-xl font-bold text-[var(--red)]">
@@ -74,8 +73,8 @@ function Events(){
                 </div>
                 </Fade>
                <Fade top>
-                   <div className="flex shield-wrap w-full justify-between items-center text-center md:justify-center">
-                           <div className="shield" >
+                   <div className="flex shield-wrap w-full justify-between items-center text-center md:justify-between">
+                           <div className="shield " >
                                <h1 className="p-2 text-[var(--blue)]">Paper Presentaion</h1>
                                 <button className="bg-[#ff2a19] text-white text-lg w-[200px] rounded-md font-medium mx-auto py-2 my-4 shield-button" id="0" onClick={handleClick}>Register soon</button>
                            </div>

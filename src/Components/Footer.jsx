@@ -27,9 +27,7 @@ function Footer(){
                     <p className='py-4 font-bold  text-1xl text-white'>Staff Co ordinator</p>
                     <p className='font-mono'>Mr. A . Chandrasekaran - 7373255432</p>
                     <p className='font-mono'>Dr. A . Arulmurugan - 9659341901</p>
-                    <p className='py-4 font-bold text-1xl text-white'>Student Co ordinator</p>
-                    <p className='font-mono'>Arun Aditya N - 7339685594</p>
-                    <p className='font-mono'>SAHASRA V - 9994528549 </p>
+                    
                 </div>
                 <div className='col-span-2 max-sm:py-4'>
                     <h1 className='w-full text-4xl font-bold text-[var(--red)]'>Venue</h1>
@@ -45,7 +43,7 @@ function Footer(){
                 </div>
                 <div className='col-span-2'>
                     <div className='flex flex-col social justify-center items-center'>
-                        <p className='py-4 font-bold text-2xl text-white'>ECEA & IETE Forum</p>
+                        <p className='py-4 font-bold text-2xl text-[var(--red)]'>ECEA & IETE Forum</p>
                             <img src={iete} className="my-2 w-[80px] h-[80px] bg-white rounded" alt="beingkecinan"></img>
                             <img src={isf} className="my-2 w-[80px] h-[80px] bg-white rounded" alt="appatakars"></img>
                     </div>

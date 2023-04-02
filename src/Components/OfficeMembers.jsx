@@ -1,5 +1,5 @@
 // import React, {useState} from "react";
-import '../styles/card.css'
+import '../styles/officemembers.css'
 
 
 function About() {
@@ -7,7 +7,7 @@ function About() {
         <>
 
             <div className="cards">
-                
+                <h1 className='relative text-[var(--red)] font-semibold text-2xl'>Staff Coordinators</h1><br />
                 <div className="cardrow">
                     
                     <div class="flip-card">
@@ -30,7 +30,7 @@ function About() {
                                 <div className="absolute text-black paraname">Dr.A.Arulmurugan</div>
                             </div>
                             <div class="flip-card-back">
-                                <h1 className="post text-center">Assistant Professor</h1>
+                                <h1 className="post text-center">Assistant Professor(SI.G)</h1>
                                 <h1 className="text-center post">ECE</h1>
 
                             </div>
@@ -49,23 +49,79 @@ function About() {
                             </div>
                         </div>
                     </div>
+                    
+                    
+                </div>
+                <div className="cardrow">
+                <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src={require('../assets/office_barriers/jude.jpg')} />
+                                <div className="absolute text-black paraname">Dr . M . Joseph Auxilius Jude</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 className="post text-center">Associate professor</h1>
+                                <h1 className="text-center post">ECE</h1>
+
+                            </div>
+                        </div>
+                    </div>
                     <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src={require('../assets/office_barriers/vennila.jpg')} />
+                                <div className="absolute text-black paraname">Mrs . A . Vennila</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 className="post text-center">Assistant Professor</h1>
+                                <h1 className="text-center post">ECE</h1>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src={require('../assets/office_barriers/ramya.jpg')} />
+                                <div className="absolute text-black paraname">Mrs . A .Ramyea</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 className="post text-center">Assistant Professor</h1>
+                                <h1 className="text-center post">ECE</h1>
+
+                            </div>
+                        </div>
+                    </div></div><br />
+                <h1 className='relative font-semibold text-2xl text-[var(--red)]'>ECEA and IETE Members</h1><br />
+                <div className="cardrow">
+                <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front " >
                                 <img src={require('../assets/office_barriers/Arunadithya.jpg')} />
                                 <div className="absolute text-[var(--blue)] paraname">Arun Aditya N</div>
                             </div>
                             <div class="flip-card-back">
-                                <h1 className="post text-center">Chairman</h1>
+                                <h1 className="post text-center">Secretary</h1>
                                 <h1 className="text-center post">ECEA</h1>
 
 
                             </div>
                         </div>
                     </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src={require('../assets/office_barriers/shreehariharan.jpg')} />
+                                <div className="absolute text-black paraname">Shri Hariharan</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 className="post text-center">Chairman</h1>
+                                <h1 className="text-center post">IETE</h1>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
-                
             
                 <div className="cardrow">
                 <div class="flip-card">
@@ -277,7 +333,7 @@ function About() {
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                                <img src={require('../assets/office_barriers/femaleicon.png')} />
+                                <img src={require('../assets/office_barriers/sowmika.jpg')} />
                                 <div className="absolute text-black paraname">Sowmika</div>
                             </div>
                             <div class="flip-card-back">
@@ -447,7 +503,7 @@ function About() {
                             </div>
                             <div class="flip-card-back">
                                 <h1 className="post text-center">Executive Member</h1>
-                                <h1 className="text-center post">ECEA</h1>
+                                <h1 className="text-center post">IETE</h1>
 
                             </div>
                         </div>
@@ -488,7 +544,7 @@ function About() {
                                 <div className="absolute text-black paraname">Sabari U P</div>
                             </div>
                             <div class="flip-card-back">
-                                <h1 className="post text-center">Executive Member</h1>
+                                <h1 className="post text-center">Joint Secretary</h1>
                                 <h1 className="text-center post">IETE</h1>
 
                             </div>
@@ -502,7 +558,7 @@ function About() {
                             </div>
                             <div class="flip-card-back">
                                 <h1 className="post text-center">Executive Member</h1>
-                                <h1 className="text-center post">IETE</h1>
+                                <h1 className="text-center post">ECEA</h1>
 
                             </div>
                         </div>
@@ -536,19 +592,7 @@ function About() {
                             </div>
                         </div>
                     </div>
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src={require('../assets/office_barriers/shreehariharan.jpg')} />
-                                <div className="absolute text-black paraname">Shri Hariharan</div>
-                            </div>
-                            <div class="flip-card-back">
-                                <h1 className="post text-center">Executive Member</h1>
-                                <h1 className="text-center post">IETE</h1>
-
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -556,15 +600,12 @@ function About() {
                                 <div className="absolute text-black paraname">Aananthi T P</div>
                             </div>
                             <div class="flip-card-back">
-                                <h1 className="post text-center">Executive Member</h1>
-                                <h1 className="text-center post">IETE</h1>
+                                <h1 className="post text-center">Additional Secretary</h1>
+                                <h1 className="text-center post">ECEA</h1>
 
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="cardrow">
-                    
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -578,6 +619,10 @@ function About() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="cardrow">
+                    
+                   
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
