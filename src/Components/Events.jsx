@@ -38,19 +38,19 @@ function Events(){
             link: "https://forms.gle/4r8efkqFymwh7BKo6",
         },
         {
-            name: "SMART ANTENNAS",
-            content: "Registration fees per head Rs.200",
-            session: "9.00 am to 4.30 pm",
-            link: "https://forms.gle/SFQdMw8gM72DVwHh8",
-        },
-        {
-            name: "BATTERY FOR EV",
+            name: "Battery For EV",
             content: "Registration fees per head Rs.200",
             session: "9.00 am to 4.30 pm",
             link: "https://forms.gle/SFQdMw8gM72DVwHh8",
         },
         {
             name: "Recent trends in drone technology",
+            content: "Registration fees per head Rs.200",
+            session: "9.00 am to 4.30 pm",
+            link: "https://forms.gle/SFQdMw8gM72DVwHh8",
+        },
+        {
+            name: "Smart 5G Antenna",
             content: "Registration fees per head Rs.200",
             session: "9.00 am to 4.30 pm",
             link: "https://forms.gle/SFQdMw8gM72DVwHh8",

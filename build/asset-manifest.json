@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/acumen/static/css/main.9b38432f.css",
-    "main.js": "/acumen/static/js/main.71703325.js",
+    "main.js": "/acumen/static/js/main.5db7fd1e.js",
     "static/js/787.396ffc22.chunk.js": "/acumen/static/js/787.396ffc22.chunk.js",
     "static/media/Jeevanatham.jpg": "/acumen/static/media/Jeevanatham.92071f747b10ac882303.jpg",
     "static/media/aananthitp.JPG": "/acumen/static/media/aananthitp.9e099b448cbcac6e8ddc.JPG",
@@ -52,11 +52,11 @@
     "static/media/chandru.jpg": "/acumen/static/media/chandru.19528da7379c929c3fb2.jpg",
     "index.html": "/acumen/index.html",
     "main.9b38432f.css.map": "/acumen/static/css/main.9b38432f.css.map",
-    "main.71703325.js.map": "/acumen/static/js/main.71703325.js.map",
+    "main.5db7fd1e.js.map": "/acumen/static/js/main.5db7fd1e.js.map",
     "787.396ffc22.chunk.js.map": "/acumen/static/js/787.396ffc22.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b38432f.css",
-    "static/js/main.71703325.js"
+    "static/js/main.5db7fd1e.js"
   ]
 }
