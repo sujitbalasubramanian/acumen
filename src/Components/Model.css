@@ -4,17 +4,15 @@
   left: 0;
   right: 0;
   z-index: 10;
-  backdrop-filter: blur(3px);
-  overflow-y: auto;
+  overflow-y:scroll;
+  background-color: #031a21;
+  margin: 20px;
 }
 
 .dialog-box {
-  background-color: #031a21;
-  flex-wrap: wrap;
-  margin: 20px;
   border-radius: 10px;
   max-width: 700px;
-  /* max-height: 800px; */
+  max-height: 560px;
 }
 
 .flex-1{
