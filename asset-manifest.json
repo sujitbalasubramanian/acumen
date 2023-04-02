@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/acumen/static/css/main.b39f14f1.css",
-    "main.js": "/acumen/static/js/main.a58815b9.js",
+    "main.css": "/acumen/static/css/main.9b38432f.css",
+    "main.js": "/acumen/static/js/main.71703325.js",
     "static/js/787.396ffc22.chunk.js": "/acumen/static/js/787.396ffc22.chunk.js",
     "static/media/Jeevanatham.jpg": "/acumen/static/media/Jeevanatham.92071f747b10ac882303.jpg",
     "static/media/aananthitp.JPG": "/acumen/static/media/aananthitp.9e099b448cbcac6e8ddc.JPG",
@@ -39,21 +39,24 @@
     "static/media/AravindanA.jpg": "/acumen/static/media/AravindanA.683061937f97d652bb01.jpg",
     "static/media/JayaprasathM.jpg": "/acumen/static/media/JayaprasathM.30c09568d7f092314f29.jpg",
     "static/media/RAJAKUMARANR.jpg": "/acumen/static/media/RAJAKUMARANR.f32558e5c17b06d0416d.jpg",
+    "static/media/jude.jpg": "/acumen/static/media/jude.82e7b644f8147d0a19a7.jpg",
     "static/media/SaravanakumarP.jpg": "/acumen/static/media/SaravanakumarP.dc2370e9bef23b503122.jpg",
+    "static/media/sowmika.jpg": "/acumen/static/media/sowmika.20802c555c78e8b69de5.jpg",
     "static/media/JinishaM.jpg": "/acumen/static/media/JinishaM.84374a709a32b457955c.jpg",
     "static/media/gokuld.jpg": "/acumen/static/media/gokuld.265df63fddb52d550ff2.jpg",
     "static/media/maleicon.jpg": "/acumen/static/media/maleicon.92e308603e86610c9997.jpg",
     "static/media/prasanna.jpg": "/acumen/static/media/prasanna.ac53b532254fe00f3a66.jpg",
     "static/media/naveen.jpg": "/acumen/static/media/naveen.dd41919b56689e9f1e61.jpg",
+    "static/media/ramya.jpg": "/acumen/static/media/ramya.0ec593097b90e675a5ce.jpg",
     "static/media/BhoovithaS.jpg": "/acumen/static/media/BhoovithaS.7876c087a8a0c5677ff7.jpg",
     "static/media/chandru.jpg": "/acumen/static/media/chandru.19528da7379c929c3fb2.jpg",
     "index.html": "/acumen/index.html",
-    "main.b39f14f1.css.map": "/acumen/static/css/main.b39f14f1.css.map",
-    "main.a58815b9.js.map": "/acumen/static/js/main.a58815b9.js.map",
+    "main.9b38432f.css.map": "/acumen/static/css/main.9b38432f.css.map",
+    "main.71703325.js.map": "/acumen/static/js/main.71703325.js.map",
     "787.396ffc22.chunk.js.map": "/acumen/static/js/787.396ffc22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b39f14f1.css",
-    "static/js/main.a58815b9.js"
+    "static/css/main.9b38432f.css",
+    "static/js/main.71703325.js"
   ]
 }
