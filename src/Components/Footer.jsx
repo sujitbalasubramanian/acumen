@@ -21,7 +21,7 @@ function Footer(){
 
     return(
         <div>
-            <div className='max-w-[1240px] mx-auto py-16 px-4 flex flex-row flex-wrap justify-between text-gray-300 relative footer max-sm:justify-center'>
+            <div className='max-w-[1240px] mx-auto py-16 px-4 flex flex-row flex-wrap justify-between text-gray-300 relative max-sm:justify-center'>
                 <div className='col-span-2 max-sm:py-4'>
                     <h1 className='w-full text-4xl font-bold text-[var(--red)]'>Contact Us</h1>
                     <p className='py-4 font-bold  text-1xl text-white'>Staff Co ordinator</p>
@@ -54,7 +54,7 @@ function Footer(){
             <div className='max-w-[1240px] mx-auto py-16 px-4 text-gray-300 relative'>
                 <hr />
                 <div className='p-4 flex justify-center allign-center '>
-                    <p className='px-4'>Developed and Designed By</p> <Link to='/dev' className='underline underline-offset-2 text-[var(--red)]'><p>Uruv</p></Link>
+                    <p className='px-4'>Designed and Developed By</p> <Link to='/dev' className='underline underline-offset-2 text-[var(--red)]'><p>Uruv</p></Link>
                 </div>
             </div>
         </div>
