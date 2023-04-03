@@ -5,6 +5,7 @@ import AboutUs from '../Components/AboutUs'
 import Landing from '../Components/Landing'
 import Header from '../Components/header'
 import VantaBg from '../Components/VantaBg'
+import Events from '../Components/Events'
 
 function Home(){
     return(
@@ -14,6 +15,7 @@ function Home(){
             <NavBar/>
             <Landing/>
             <AboutUs/>
+            <Events/>
             <Footer/>
            
         </div>
