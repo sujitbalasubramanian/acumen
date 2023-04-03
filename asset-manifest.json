@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/acumen/static/css/main.7973e605.css",
-    "main.js": "/acumen/static/js/main.5db7fd1e.js",
+    "main.css": "/acumen/static/css/main.3496ac5b.css",
+    "main.js": "/acumen/static/js/main.19adadb9.js",
     "static/js/787.396ffc22.chunk.js": "/acumen/static/js/787.396ffc22.chunk.js",
     "static/media/Jeevanatham.jpg": "/acumen/static/media/Jeevanatham.92071f747b10ac882303.jpg",
     "static/media/aananthitp.JPG": "/acumen/static/media/aananthitp.9e099b448cbcac6e8ddc.JPG",
@@ -51,12 +51,12 @@
     "static/media/BhoovithaS.jpg": "/acumen/static/media/BhoovithaS.7876c087a8a0c5677ff7.jpg",
     "static/media/chandru.jpg": "/acumen/static/media/chandru.19528da7379c929c3fb2.jpg",
     "index.html": "/acumen/index.html",
-    "main.7973e605.css.map": "/acumen/static/css/main.7973e605.css.map",
-    "main.5db7fd1e.js.map": "/acumen/static/js/main.5db7fd1e.js.map",
+    "main.3496ac5b.css.map": "/acumen/static/css/main.3496ac5b.css.map",
+    "main.19adadb9.js.map": "/acumen/static/js/main.19adadb9.js.map",
     "787.396ffc22.chunk.js.map": "/acumen/static/js/787.396ffc22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7973e605.css",
-    "static/js/main.5db7fd1e.js"
+    "static/css/main.3496ac5b.css",
+    "static/js/main.19adadb9.js"
   ]
 }
