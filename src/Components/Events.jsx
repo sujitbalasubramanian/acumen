@@ -35,25 +35,25 @@ function Events(){
             content: "Each team having maximum of 3 members can participate. One registration per team is enough. No need for individual registration of participants. Consists of various rounds like enacting to identify the song, find the Tamil song from English lyrics, identify the missed word in a song, identify the song which is played.",
             note: "ONLY THOSE WHO HAVE PARTICIPATED IN TECHNICAL EVENT CAN TAKE PART IN NON TECHNICAL EVENT. Registration Fee is Rs.150 Per head.",
             session: "AFTERNOON",
-            link: "https://forms.gle/4r8efkqFymwh7BKo6",
+            link: "https://docs.google.com/forms/d/e/1FAIpQLSf_knvavoO2VT2e0EDy19elHZYLbA03psn3Bk8tT7vRqgW_hQ/viewform",
         },
         {
             name: "Battery For EV",
             content: "Registration fees per head Rs.200",
             session: "9.00 am to 4.30 pm",
-            link: "https://forms.gle/SFQdMw8gM72DVwHh8",
+            link: "https://forms.gle/GXFqVrfDdeu8tBRj9",
         },
         {
             name: "Recent trends in drone technology",
             content: "Registration fees per head Rs.200",
             session: "9.00 am to 4.30 pm",
-            link: "https://forms.gle/SFQdMw8gM72DVwHh8",
+            link: "https://forms.gle/GXFqVrfDdeu8tBRj9",
         },
         {
             name: "Smart 5G Antenna",
             content: "Registration fees per head Rs.200",
             session: "9.00 am to 4.30 pm",
-            link: "https://forms.gle/SFQdMw8gM72DVwHh8",
+            link: "https://forms.gle/GXFqVrfDdeu8tBRj9",
         }
     ];
 
