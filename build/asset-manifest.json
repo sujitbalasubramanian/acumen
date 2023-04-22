@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/acumen/static/css/main.b10b0b5e.css",
-    "main.js": "/acumen/static/js/main.053409f3.js",
+    "main.js": "/acumen/static/js/main.edf1faea.js",
     "static/js/787.396ffc22.chunk.js": "/acumen/static/js/787.396ffc22.chunk.js",
     "static/media/Jeevanatham.jpg": "/acumen/static/media/Jeevanatham.92071f747b10ac882303.jpg",
     "static/media/aananthitp.JPG": "/acumen/static/media/aananthitp.9e099b448cbcac6e8ddc.JPG",
@@ -39,6 +39,7 @@
     "static/media/AravindanA.jpg": "/acumen/static/media/AravindanA.683061937f97d652bb01.jpg",
     "static/media/JayaprasathM.jpg": "/acumen/static/media/JayaprasathM.30c09568d7f092314f29.jpg",
     "static/media/RAJAKUMARANR.jpg": "/acumen/static/media/RAJAKUMARANR.f32558e5c17b06d0416d.jpg",
+    "static/media/veenas.jpg": "/acumen/static/media/veenas.677c786f06c871bb031b.jpg",
     "static/media/jude.jpg": "/acumen/static/media/jude.82e7b644f8147d0a19a7.jpg",
     "static/media/SaravanakumarP.jpg": "/acumen/static/media/SaravanakumarP.dc2370e9bef23b503122.jpg",
     "static/media/sowmika.jpg": "/acumen/static/media/sowmika.20802c555c78e8b69de5.jpg",
@@ -53,11 +54,11 @@
     "static/media/chandru.jpg": "/acumen/static/media/chandru.19528da7379c929c3fb2.jpg",
     "index.html": "/acumen/index.html",
     "main.b10b0b5e.css.map": "/acumen/static/css/main.b10b0b5e.css.map",
-    "main.053409f3.js.map": "/acumen/static/js/main.053409f3.js.map",
+    "main.edf1faea.js.map": "/acumen/static/js/main.edf1faea.js.map",
     "787.396ffc22.chunk.js.map": "/acumen/static/js/787.396ffc22.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b10b0b5e.css",
-    "static/js/main.053409f3.js"
+    "static/js/main.edf1faea.js"
   ]
 }

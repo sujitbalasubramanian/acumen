@@ -33,7 +33,7 @@ function Developers() {
       </div>
       <div class="card">
         <div class="img">
-          <img src={require("../assets/office_barriers/maleicon.jpg")} />
+          <img src={require("../assets/developers/veenas.jpg")} />
         </div>
         <div class="infos">
           <div class="name">
@@ -41,14 +41,14 @@ function Developers() {
             <h4>Web Developer</h4>
           </div>
           <div className="socialmedia">
-            <a target="_blank" href="https://www.instagram.com/kongutbi"><Icon.Instagram aria-hidden="true"
+            <a target="_blank" href="https://instagram.com/_self_master_?igshid=ZDdkNTZiNTM="><Icon.Instagram aria-hidden="true"
               id="instagram"></Icon.Instagram></a>
-            <a target="_blank" href="https://www.linkedin.com/company/kongutbi/"><Icon.Linkedin
+            <a target="_blank" href="https://www.linkedin.com/in/veenas-kumar-54491a216/"><Icon.Linkedin
 
               id="linkedin"></Icon.Linkedin></a>
-            <a target="_blank" href="https://twitter.com/kongutbi"><Icon.Twitter
+            <a target="_blank" href="https://twitter.com/veenaskumar"><Icon.Twitter
               id="twitter"></Icon.Twitter></a>
-            <a target="_blank" href="https://www.facebook.com/KonguTBI"><Icon.Github
+            <a target="_blank" href="https://github.com/veenaskumar"><Icon.Github
               id="github"></Icon.Github></a>
           </div>
 
