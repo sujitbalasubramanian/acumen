@@ -14,7 +14,7 @@ function Landing(){
                         <div className="relative">
                             <h1 className="md:text-7xl sm:text-6xl sm:mt-10 text-4xl font-bold md:py-6 text-[var(--red)] monoton-font">ACUMEN 2K23!</h1>
                         </div>
-                        <p className="md:text-2xl text-xl font-bolder text-gray-500 pb-5">April 24,2023</p>
+                        <p className="md:text-2xl text-xl font-bolder text-gray-500 pb-5">April 26,2023</p>
                         <TypeAnimation className="md:text-5xl font-mono sm:text-4xl text-xl font-bold"
                                 sequence={['Online-Registration opens', 1500,'Cash Prize upto ₹10k']}
                             wrapper="span"
@@ -27,7 +27,7 @@ function Landing(){
                                 <button className="bg-[#ff2a19] text-white text-lg w-[200px] rounded-md font-medium my-6 mx-auto py-3">Register soon</button>
                             </Link>
                         </div>
-                        <p className="md:text-lg text-sm text-white">Last date to Register April 22,2023.</p>
+                        <p className="md:text-lg text-sm text-white">Last date to Register April 24,2023.</p>
 
                     </div>
                 </div>
